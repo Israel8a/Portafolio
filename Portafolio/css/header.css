@@ -1,0 +1,213 @@
+/*cambio de color usando maus*/
+.formcontato__botao{
+    width: 45%;
+}
+.menu__logo:hover{
+    transform: rotate(180deg);
+}
+.menu__list__item:hover{
+    text-decoration: underline;
+ }
+ .title__network__item:hover{
+     text-decoration: underline;
+     color: brown;
+ }
+button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+ }
+.menu__header{
+    display: flex;
+    align-items: center;
+}
+.menu__title{
+    padding-left: 1rem;
+}
+.menu__list{
+    display: flex;
+    padding: 0 0.5vh;
+}
+.menu__list__item{
+    padding: 0 1vh;   
+}
+.menu__list__item__contacto{
+    padding: 0 0.5rem;
+    font-weight: bold;
+}
+/*aqui empieza presentación/*/
+.title__container{
+    padding: 2rem 2% 0 0;
+}
+.title__bio, .about__title{
+    font-family: var(--diseño-texto);
+    font-size: xxx-large;
+    font-weight: bold;
+}
+.title__subsection,.about__paragraph{
+    font-family: var(--diseño-texto);
+    font-style: initial;
+    font-size: x-large;
+    font-weight: lighter;
+}
+.title__network{
+    display: flex;
+    padding-left: inherit;
+}
+.title__network__item{
+    padding: 1rem 2rem 0 0;
+}
+.about__container{
+    width: 70%;
+}
+/*hobies*/
+.skills__title,.hobbies__title{
+   text-align: center;
+   font-family: var(--diseño-texto);
+   font-style: initial;
+   font-size: 32px;
+}
+.skills__box,.hobbies__box{
+    width: 150px;
+    margin: 0 2%;
+    height: 148px;
+    background-color: var(--color-de-fonde-hobbis);
+    display: flex;
+}
+.skills__img,.hobbies__img{
+    display: flex;
+    margin-top: 50px;
+}
+.skills__name,.hobbies__name,.experience__text{
+    display: flex;
+    margin-top: 15px;
+    font-family: var(--diseño-texto);
+    font-style: initial;
+    font-size: 20px;
+    font-weight: lighter;
+}
+/* Experiencia Académica*/
+.academic__title{
+    width: 100%;
+    text-align: center;
+    margin-top: -10px;
+}
+.academic__courses{
+    display: flex;
+    margin: auto;
+}
+.academic__courses__box{
+    background-color: var(--color-de-fonde-hobbis);
+    width: 29%;
+    height: 256px;
+    margin: 20px 1.5% ;
+}
+.academic__courses__item__img{
+    display: flex;
+    margin: 15.5% 0 0 11%;
+}
+.img{
+    width:75%;
+}
+.academic__courses__item__title {
+    display: flex;
+    margin: 50px 0 -30px 0;
+    font-family: var(--diseño-texto);
+    font-style: initial;
+    font-size: 20px;
+    font-weight: lighter;   
+    text-decoration: none;
+}
+/*experiencia*/
+.experience__section__title{
+    width: 100%;
+    text-align: center;
+}
+.experiencie__box{
+    margin: 1.5rem 0;
+    display: flex;
+}
+.experience__img{
+    width: 75%;
+}
+.experience__info{
+    width: 25%;
+    margin-top: 15%;
+    margin-left: 15px;
+}
+.experiencie__box-2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.experiencia__botao--repo{
+    border-color: var(--color-de-botones);
+    color: var(--color-de-botones);
+    width: 100px;
+    height: 51px;
+}
+.experience__botao--demo {
+    background-color: var(--color-de-botones);
+   color: var(--cor-de-fundo);
+   border-color: var(--cor-de-fundo);
+   margin: 10;
+   height: 51px;
+   width: 100px;
+}
+.experience__section__title,.formcontato__title{
+    font-style: revert;
+    font-size: xxx-large;
+    font-weight: revert;
+    font-family: var(--diseño-texto);
+}
+.formcontato__contacto {
+    display: flex;
+    width: 98%;
+}
+.formcontato__text{
+    margin-left: 20px;
+}
+.formcontato__subtext{
+    display: flex;
+    margin: 10px  0;
+    font-family: var(--diseño-texto);
+    font-style: initial;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.formcontato__form{
+    display: grid;
+    margin-top: 5px;
+}
+.formcontato__input{
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.formcontato__title{
+    margin: 10px;
+}
+
+.formcontato__botao{
+    margin-top: 5%;
+    padding: 10px 20px;
+    background-color: var(--color-de-botones);
+    color: var(--color-de-fonde-hobbis);
+    border-radius: 2px;
+    border: none;
+}
+.formcontato__img{
+    height: 530px;
+}
+/*hobbies*/
+.hobbies__img{
+    margin-top: 10px;
+    width:32px ;
+    height:32px;
+}
+.skills__img{
+    margin-top: 25px;
+}
+/*diseño de span*/
+.input-message-error{
+    color: red;
+}

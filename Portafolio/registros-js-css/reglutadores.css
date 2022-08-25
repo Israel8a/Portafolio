@@ -1,0 +1,41 @@
+body{
+    background-color: cadetblue;
+}
+.cadastro-cabecalho{
+    display: flex;
+}
+.registry-header__title{
+    font-size: 35px;
+}
+.card__title{
+    font-size: 25px;
+}
+.card__title,.registry-header__title{
+    text-align: center;
+}
+input {
+    width: 40%;
+    margin: 5px 10px;
+    flex-direction: row;
+}
+label{
+    width: 20%;
+    margin: 10px;
+}
+@media (max-width: 1000px){
+    input {
+        width: 98%;
+        margin: 5px 10px;
+        display: flex;
+    }
+}
+@media (max-width: 500px){
+    .cadastro-cabecalho{
+        display: block;}
+.registry-header__title{
+    font-size: 25px;
+}
+.card__title{
+    font-size: 15px;
+}
+}
